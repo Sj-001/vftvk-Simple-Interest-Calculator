@@ -14,7 +14,7 @@ function compute() {
   var num2 = Number(interest);
   var amount = num1 + num2;
   console.log(amount);
-  document.getElementById("result").innerText =
+  document.getElementById("result").innerHTML =
     "If you deposit <mark>" +
     principal +
     "</mark>,<br>at an interest rate of <mark>" +
@@ -23,7 +23,7 @@ function compute() {
     amount +
     "</mark>,<br>in the year <mark>" +
     year +
-    "</mark>\\<br>";
+    "</mark><br>";
 }
 
 function updateRate() {
